@@ -14,9 +14,9 @@ class Window:
     pygame.init()
     self.root = pygame.display.set_mode(self.dimensions)
     pygame.display.set_caption(self.name)
-  def drawWindow(self):
+  def draw(self):
+    self.root.fill((0,0,0))
     for event in pygame.event.get():
       if event.type == pygame.QUIT:
         self.running = False
-    self.root.fill((0,0,0))
-    
+    pygame.display.update()

@@ -11,4 +11,5 @@ BTW do not complain, i said that this was a bad library.... Actually do whatever
 
 The packages that will be used are: pygame, threading
 '''
+from .screen import *
 __version__ = '0.1.0'
