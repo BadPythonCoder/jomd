@@ -1,2 +1,0 @@
-def testduc():
-  print('yeahh')
